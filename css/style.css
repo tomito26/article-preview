@@ -82,9 +82,10 @@ main{
     border-radius: 50px;
     text-align: right;
     background-color:    hsl(210, 46%, 95%);
-   position: absolute;
-   right: 0;
-   bottom: 20px;
+    position: absolute;
+    right: 0;
+    bottom: 20px;
+    cursor: pointer;
 
     
     border: 1px solid  hsl(210, 46%, 95%);
@@ -94,19 +95,38 @@ main{
     background-color: hsl(217, 19%, 35%);
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
-    /* margin: 20px; */
-}
-.social-media .icons {
-    margin-left: 30px;
-    padding: 25px;
-    display: flex;
-}
-.icons p {
+    position: relative;
+    display: none;
     
 }
+.social-media .icons {
+    padding: 25px;
+    display: flex;
+   
+}
+.icons p {
+    font-size: 20px;
+    font-family: "Manrope",sans-serif;
+    color:  hsl(212, 23%, 69%);
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}
 .icons .fab{
-    font-size: 30px;
+    font-size: 27px;
     margin-left: 20px;
+    color: hsl(210, 46%, 95%);
+}
+.social-media .fas {
+    font-size: 19px;
+    color:  hsl(210, 46%, 95%);
+    position: absolute;
+    top: 22px;
+    right: 34px;
+    background-color:  hsl(214, 17%, 51%);
+    padding: 7px;
+    border-radius: 50%;
+    /* margin-bott: 10px; */
+   
 }
 
    
