@@ -47,7 +47,7 @@ main{
 .article-info p {
     padding-top: 15px;
     color:  hsl(214, 17%, 51%);
-    font-weight: 400;
+    font-weight: 500;
     
 }
 .profile{
@@ -95,6 +95,7 @@ main{
     background-color: hsl(217, 19%, 35%);
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
+    margin-top: 10px;
     position: relative;
     display: none;
     
@@ -105,14 +106,14 @@ main{
    
 }
 .icons p {
-    font-size: 20px;
+    font-size: 17px;
     font-family: "Manrope",sans-serif;
     color:  hsl(212, 23%, 69%);
     text-transform: uppercase;
     letter-spacing: 5px;
 }
 .icons .fab{
-    font-size: 27px;
+    font-size: 24px;
     margin-left: 20px;
     color: hsl(210, 46%, 95%);
 }
