@@ -75,8 +75,8 @@ main{
     font-weight: 600;
 
 }
-.profile ion-icon{
-    font-size: 16px;
+.profile .fas{
+    font-size: 19px;
     color:hsl(217, 19%, 35%);
     padding: 8px;
     border-radius: 50px;
@@ -89,6 +89,24 @@ main{
     
     border: 1px solid  hsl(210, 46%, 95%);
     
+}
+.social-media{
+    background-color: hsl(217, 19%, 35%);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    /* margin: 20px; */
+}
+.social-media .icons {
+    margin-left: 30px;
+    padding: 25px;
+    display: flex;
+}
+.icons p {
+    
+}
+.icons .fab{
+    font-size: 30px;
+    margin-left: 20px;
 }
 
    
