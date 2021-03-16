@@ -177,6 +177,7 @@ main{
     }
     .profile{
         margin-top: 10px;
+        margin-bottom: 10px;
     }
   
 
@@ -197,6 +198,13 @@ main{
     .social-media .icons{
         padding: 23px;
     }
+    .profile .fas{
+    /* color:hsl(217, 19%, 35%); */
+    color:  hsl(210, 46%, 95%);
+    background-color: hsl(217, 19%, 35%) ;
+   
+    
+}
  
 }
 
