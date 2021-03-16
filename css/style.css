@@ -55,6 +55,9 @@ main{
     margin-top: 10px;
     position: relative;
 }
+.profile .comment {
+    display: none;
+}
 .profile-info{
     display: flex;
 }
@@ -139,7 +142,7 @@ main{
 
   main{
     height: 270px;
-    width: 800px;
+    width: 750px;
     display: flex;
   }
   .drawers{
@@ -160,8 +163,8 @@ main{
         
     }
     .article-info{
-        padding: 20px 20px 0 5px;
-        margin:20px 30px 0 30px;
+        padding: 20px 10px 0 5px;
+        margin:20px 20px 0 30px;
     }
     .article-info h2{
         line-height: 20px;
@@ -171,10 +174,12 @@ main{
     line-height: 20px;
    
     
-}
+    }
     .profile{
         margin-top: 10px;
     }
+  
+
     .profile-info img {
     height: 50px;
     width: 50px;
@@ -182,7 +187,16 @@ main{
     object-fit: cover;
     margin: 10px 20px 0 10px;
   
-}
+}   .icons p {
+    margin-left: 15px;
+    
+}   
+    .social-media{
+        border-bottom-left-radius: 0;
+    }
+    .social-media .icons{
+        padding: 23px;
+    }
  
 }
 

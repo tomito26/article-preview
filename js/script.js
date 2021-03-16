@@ -1,4 +1,4 @@
-let shareIcon = document.querySelector(".fas");
+let shareIcon = document.querySelector(".shareIcon");
 let mediaShareIcon = document.querySelector(".share");
 let socialMedia = document.querySelector(".social-media");
 let profileInfo = document.querySelector(".profile");
